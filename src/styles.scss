@@ -1,0 +1,28 @@
+@import "sass/variables.scss";
+
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/layout/section.sass";
+
+
+.App {
+
+  
+
+  font-family: Georgia;
+  text-align: center;
+
+  h1 {
+    font-size: 30px;
+    position: relative;
+    color: $primaryColor;
+  }
+
+  h2{
+    font-size: 20px;
+    position: relative;
+    color: $secColor;
+  }
+
+}
